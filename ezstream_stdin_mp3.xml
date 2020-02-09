@@ -1,6 +1,6 @@
 <ezstream>
-    <url>http://192.168.20.10:10080/radio</url>
-    <sourcepassword>joe053</sourcepassword>
+    <url>http://192.168.10.24:8000/radio</url>
+    <sourcepassword>hackme</sourcepassword>
     <format>MP3</format>
     <filename>stdin</filename>
     <!--
