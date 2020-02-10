@@ -1,19 +1,5 @@
-Example Usage
-pi@usbproxy:~/rtl_fm_icecast $ ./radio_streamer_wrapper.sh start
-pi@usbproxy:~/rtl_fm_icecast $ ./radio_streamer_wrapper.sh status
-Streamer Suite seems to be running!
-RTL PID: 8497
-SOX PID: 8498
-EZ Stream PID: 8500
-FREQ: 104.5
-pi@usbproxy:~/rtl_fm_icecast $ ./radio_streamer_wrapper.sh -f 106.5 tune
-pi@usbproxy:~/rtl_fm_icecast $ ./radio_streamer_wrapper.sh status
-Streamer Suite seems to be running!
-RTL PID: 8629
-SOX PID: 8631
-EZ Stream PID: 8633
-FREQ: 106.5
-pi@usbproxy:~/rtl_fm_icecast $ ./radio_streamer_wrapper.sh stop
-pi@usbproxy:~/rtl_fm_icecast $ ./radio_streamer_wrapper.sh status
-Streamer Suite is not running.
-pi@usbproxy:~/rtl_fm_icecast $
+This contains a couple of scripts for interacting with a rtl_sdr radio for timeshifting FM radio.
+
+radio_recorder.sh - records rtl_sdr stream to mp3 files for later processing / uploading to a podcastgen server
+radio_stream_to_icecast.sh - streams rtl_sdr feed to an Icecast server to listen on your LAN (or beyond if you dare!).
+
